@@ -60,3 +60,18 @@ console.log(myElements.indexOf("Mamão"));
 console.log(myElements.lastIndexOf("Mamão"));
 
 o valor será -1 caso o index não exista  */
+
+
+//14 - slice
+
+const testeSlice = ["a","b","c","d","e","f",]
+
+const subArray = testeSlice.slice(2,4)
+
+console.log(subArray)
+
+console.log(testeSlice)
+
+const subArray2 = testeSlice.slice(2, 4 + 1)
+
+console.log(subArray2)
