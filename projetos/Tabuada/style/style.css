@@ -1,0 +1,26 @@
+body{
+    background: linear-gradient(rgb(236, 166, 37),rgba(255, 0, 0, 0.568),rgba(0, 0, 255, 0.644));
+    height: 100vh;
+   display: flex;
+   justify-content: center;
+   
+   
+}
+
+
+div#main{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+div.boxs{
+    background-color: white;
+    padding: 50px;
+    width: 50vh;
+    display: flex;
+}
+
+div#output{
+    
+}
