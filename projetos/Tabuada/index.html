@@ -8,26 +8,25 @@
     <script src="js/script.js" defer></script>
 </head>
 <body>
-    <main>
-        <div id="main">
-            <h1>Digite o número e confirme para gerar uma tabuada</h1>
-            <div class="boxs">
-                <span class="box-input">
-                    Tabuada do:
-                    <input type="number" name="number" id="number">
-                </span>
-                <span class="box-input">
-                    Multiplicar até:
-                    <input type="number" name="multiplier" id="multiplier">
-                </span>
-                <button id="event">Calcular</button>
-            </div>
-            <h1>Tabuada do número:</h1>
-            <div id="output" class="boxs">
-                Informe o número para calcular uma tabuada...
+    <h2>Digite o número e confirme para gerar uma tabuada</h1>
+    <form action="" id="multiplication-form">
+        <div class="boxs">
+            <label for="number">Tabuada do:</label>
+            <input type="number" name="number" id="number" value="3">
+        </div>
+        <div class="boxs">
+            <label for="number">Multiplicar até:</label>
+            <input type="number" name="multiplier" id="multiplier" value="10">
+        </div>
+            <input type="submit" value="Calcular">
+    </form>
+    <div id="multiplication-table">
+        <h2 id="mutiplication-title">Tabuada do número: <span></span></h2>
+        <div id="multiplication-operations">
+            <p>informe um número para calcular uma tabuada...</p>
             </div>
         </div>
-        </main>
+    </div>
 </body>
 </html>
 
